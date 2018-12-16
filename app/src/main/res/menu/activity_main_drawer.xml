@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nauka"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Nauka" />
+        <item
+            android:id="@+id/nav_zestawy"
+            android:icon="@drawable/ic_storage_black_24dp"
+            android:title="Zestawy" />
+        <item
+            android:id="@+id/nav_zarzadzaj"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Narzędzia" />
+    </group>
+
+    <item android:title="O programie">
+        <menu>
+            <item
+                android:id="@+id/nav_instrukcja"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Instrukcja" />
+            <item
+                android:id="@+id/nav_autor"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Autor" />
+        </menu>
+    </item>
+
+</menu>
